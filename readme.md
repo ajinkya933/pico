@@ -53,7 +53,7 @@ The training data has to be provided in a specific format.
 The details are printed to the standard output when `picolrn` is invoked without parameters.
 It is often convenient to pipe this information into a text file:
 
-    $ ./picolrn > howto.txt
+    $ ./picolrn <trdata> <outputfoldername> > howto.txt
 
 A tutorial that guides you through the process of learning a face detector can be found in the folder **gen/sample/**.
 
